@@ -1,0 +1,32 @@
+[model]
+name = "black-forest-labs/FLUX.1-kontext-pro"
+display_name = "FLUX.1 Kontext [pro]"
+family = "FLUX.1 Kontext"
+provider = "Together AI"
+release_date = "2025-05-28"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps (default 28)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.04/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/flux-1-kontext-pro", "https://www.together.ai/blog/flux-1-kontext", "https://docs.together.ai/docs/serverless/models", "https://docs.together.ai/docs/quickstart-flux-kontext"]

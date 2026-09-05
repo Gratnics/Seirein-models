@@ -1,0 +1,32 @@
+[model]
+name = "gpt-image-1.5"
+display_name = "GPT Image 1.5"
+family = "GPT Image"
+provider = "OpenAI"
+release_date = "2025-12-16"
+commercial_use = "Same terms as gpt-image-2"
+
+[resolution]
+max = "1536x1024 or 1024x1536"
+min = "1024x1024"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "32,000 characters"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "quality: 'low'|'medium'|'high'|'auto'; input_fidelity: 'low'|'high' (default low); moderation: 'low'|'auto'"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "Text $5.00/1M ($1.25 cached); Image $8.00/1M ($2.00 cached); Batch: Text $2.50/1M ($0.63 cached), Image $4.00/1M ($1.00 cached)"
+output = "$32.00/1M image output tokens (standard) / $16.00/1M (Batch); per-image Low $0.009-$0.013, Medium $0.034-$0.05, High $0.133-$0.2"
+
+[sources]
+urls = ["https://developers.openai.com/api/docs/models/gpt-image-1.5", "https://developers.openai.com/api/docs/pricing"]

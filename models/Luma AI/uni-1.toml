@@ -1,0 +1,32 @@
+[model]
+name = "uni-1"
+display_name = "Uni-1"
+family = "Uni-1 (Unified Intelligence)"
+provider = "Luma AI"
+release_date = "2026-05-05 (Agents API GA date; underlying model itself may predate this)"
+commercial_use = "Governed by Luma API Terms of Use; commercial permitted; no white-label/resale/training-data use; 'Powered by Luma' attribution may be required"
+
+[resolution]
+max = "2048px (2K) - fixed, all requests output at 2K"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "6,000 characters max"
+prompt_format = "natural_language (descriptive prose favored; tag/keyword and negative prompting explicitly rejected)"
+
+[settings]
+has_level_settings = true
+level_param_values = "style: 'auto' (default) | 'manga' (portrait only); quality tier selected via model field itself (uni-1 vs uni-1-max)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.0404/text-to-image (2K); $0.0434/edit or 1-ref generation; +$0.0030/additional ref (up to 9 create/8 edit)"
+
+[sources]
+urls = ["https://docs.agents.lumalabs.ai/", "https://docs.agents.lumalabs.ai/guides/pricing/", "https://docs.agents.lumalabs.ai/guides/images/prompt-guide/", "https://docs.agents.lumalabs.ai/guides/image-editing/", "https://docs.agents.lumalabs.ai/guides/model/", "https://docs.agents.lumalabs.ai/guides/faq/", "https://lumalabs.ai/news/uni-1-1-api"]

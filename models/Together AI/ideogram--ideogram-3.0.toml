@@ -1,0 +1,32 @@
+[model]
+name = "ideogram/ideogram-3.0"
+display_name = "Ideogram 3.0"
+family = "Ideogram"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = false
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.06/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/ideogram-3-0", "https://docs.together.ai/docs/serverless/models"]

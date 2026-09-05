@@ -1,0 +1,32 @@
+[model]
+name = "sd3.5-large-turbo"
+display_name = "Stable Diffusion 3.5 Large Turbo"
+family = "Stable Diffusion 3.5"
+provider = "Stability AI"
+release_date = "2024-10-22"
+commercial_use = "Same Community License as SD3.5 Large"
+
+[resolution]
+max = "1 megapixel (default 1024x1024)"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "prompt 1-10,000 chars; negative_prompt <=10,000 chars"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "cfg_scale (1-10, default 1); style_preset; fixed 4-step distilled generation"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "n/a"
+output = "4 credits/gen ($0.04)"
+
+[sources]
+urls = ["https://platform.stability.ai/docs/api-reference", "https://platform.stability.ai/pricing", "https://stability.ai/news-updates/introducing-stable-diffusion-3-5"]

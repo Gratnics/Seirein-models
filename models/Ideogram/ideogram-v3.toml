@@ -1,0 +1,32 @@
+[model]
+name = "ideogram-v3"
+display_name = "Ideogram 3.0"
+family = "Ideogram 3.0"
+provider = "Ideogram"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "one of 71 presets; largest 1536x640/640x1536"
+min = "512x1536"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "rendering_speed: TURBO, DEFAULT, QUALITY (FLASH not supported on v3)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "undocumented"
+
+[sources]
+urls = ["https://developer.ideogram.ai/api-reference/api-reference/generate-v3", "https://developer.ideogram.ai/openapi.json", "https://ideogram.ai/models/3.0/"]

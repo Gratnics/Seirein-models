@@ -1,0 +1,32 @@
+[model]
+name = "black-forest-labs/FLUX.2-pro"
+display_name = "FLUX.2 [pro]"
+family = "FLUX.2"
+provider = "Together AI"
+release_date = "2025-11-25"
+commercial_use = "undocumented"
+
+[resolution]
+max = "1920x1920 (up to 4MP per model page)"
+min = "256x256"
+arbitrary_resolution = true
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "32K (wording not independently verbatim-confirmed)"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = false
+level_param_values = "steps/guidance not exposed for [pro]"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.03/image"
+
+[sources]
+urls = ["https://www.together.ai/models/flux-2-pro", "https://www.together.ai/blog/flux-2-multi-reference-image-generation-now-available-on-together-ai", "https://docs.together.ai/docs/serverless/models", "https://docs.together.ai/docs/quickstart-flux"]

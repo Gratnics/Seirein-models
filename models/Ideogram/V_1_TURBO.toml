@@ -1,0 +1,32 @@
+[model]
+name = "V_1_TURBO"
+display_name = "Ideogram 1.0 Turbo"
+family = "Ideogram 1.0 (legacy)"
+provider = "Ideogram"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = false
+level_param_values = "N/A"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "undocumented"
+
+[sources]
+urls = ["https://developer.ideogram.ai/api-reference/api-reference/generate", "https://developer.ideogram.ai/openapi.json"]

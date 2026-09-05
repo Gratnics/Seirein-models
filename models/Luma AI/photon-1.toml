@@ -1,0 +1,32 @@
+[model]
+name = "photon-1"
+display_name = "Photon"
+family = "Photon"
+provider = "Luma AI"
+release_date = "undocumented"
+commercial_use = "Governed by Luma API Terms of Use; commercial use of API permitted; no white-label/resale/training-dataset use. NOTE: lumalabs.ai/llm-info says 'Photon no longer exists as a separate product' though no explicit API deprecation notice found."
+
+[resolution]
+max = "1080p / 2 megapixels"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "image_ref[].weight, style_ref.weight, character_ref weight, modify_image_ref.weight — all 0.0-1.0"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "$0.015 per 1080p (2MP) image"
+
+[sources]
+urls = ["https://docs.lumalabs.ai/", "https://docs.lumalabs.ai/docs/image-generation", "https://docs.lumalabs.ai/reference/generateimage.md", "https://docs.lumalabs.ai/changelog/luma-photon-photon-flash-api", "https://lumalabs.ai/photon", "https://lumalabs.ai/llm-info", "https://lumalabs.ai/legal/api-terms-of-use"]

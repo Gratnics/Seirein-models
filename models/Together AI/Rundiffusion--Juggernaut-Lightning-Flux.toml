@@ -1,0 +1,32 @@
+[model]
+name = "Rundiffusion/Juggernaut-Lightning-Flux"
+display_name = "Juggernaut Lightning Flux"
+family = "Flux (RunDiffusion Juggernaut variant, speed-optimized)"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = false
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.0017/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/juggernaut-lightning-flux", "https://docs.together.ai/docs/serverless/models"]

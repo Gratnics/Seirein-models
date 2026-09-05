@@ -1,0 +1,32 @@
+[model]
+name = "V_2"
+display_name = "Ideogram 2.0"
+family = "Ideogram 2.0 (legacy)"
+provider = "Ideogram"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "one of 100+ RESOLUTION_ presets; largest 1536x640"
+min = "512x1536"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = false
+level_param_values = "N/A (magic_prompt_option AUTO/ON/OFF is a toggle, not a level)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "undocumented"
+
+[sources]
+urls = ["https://developer.ideogram.ai/api-reference/api-reference/generate", "https://developer.ideogram.ai/openapi.json"]

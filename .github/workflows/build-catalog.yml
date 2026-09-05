@@ -1,0 +1,43 @@
+name: Build catalog
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild catalog.json from models/
+        run: python3 scripts/build_catalog.py
+
+      - name: Verify committed catalog.json is up to date
+        run: |
+          if ! git diff --exit-code -- catalog.json; then
+            echo "::error::catalog.json is out of date. Run 'python3 scripts/build_catalog.py' and commit the result."
+            exit 1
+          fi
+
+      - name: Validate catalog shape
+        run: |
+          python3 - <<'PY'
+          import json
+          allowed = {"OpenAI", "Google", "xAI", "OpenRouter", "Together AI", "Stability AI",
+                     "Black Forest Labs", "Ideogram", "Luma AI", "ByteDance"}
+          required = ["model", "resolution", "input", "settings", "output", "pricing", "sources"]
+          data = json.load(open("catalog.json", encoding="utf-8"))
+          assert isinstance(data, list) and len(data) >= 10, "catalog must be a list of >= 10 entries"
+          for e in data:
+              missing = [k for k in required if k not in e]
+              assert not missing, f"{e.get('_source_file')}: missing {missing}"
+              assert e["model"]["provider"] in allowed, f"{e['_source_file']}: unknown provider {e['model']['provider']!r}"
+              assert e["sources"].get("urls"), f"{e['_source_file']}: no source urls"
+          print(f"OK: {len(data)} entries")
+          PY

@@ -1,0 +1,32 @@
+[model]
+name = "flux-2-klein-9b"
+display_name = "FLUX.2 [klein] 9B"
+family = "FLUX.2"
+provider = "Black Forest Labs"
+release_date = "2026-01-15"
+commercial_use = "FLUX Non-Commercial License for distilled 9B weights; commercial use via BFL's own paid API"
+
+[resolution]
+max = "undocumented (benchmarked 1024x1024)"
+min = "64x64 pixels"
+arbitrary_resolution = true
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "up to 4 input images"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "safety_tolerance: 0-5 (default 2); step-distilled ~4 steps (not user-adjustable)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "from $0.015/MP"
+
+[sources]
+urls = ["https://docs.bfl.ai/api-reference/models/generate-or-edit-an-image-with-flux2-[klein]-9b", "https://docs.bfl.ml/quick_start/pricing", "https://docs.bfl.ai/release-notes", "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence"]

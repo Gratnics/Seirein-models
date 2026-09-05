@@ -1,0 +1,32 @@
+[model]
+name = "Wan-AI/Wan2.6-image"
+display_name = "Wan2.6"
+family = "Wan (Alibaba)"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = "true (1-4 output images per request, per model page)"
+
+[pricing]
+input = "undocumented"
+output = "$0.03/image"
+
+[sources]
+urls = ["https://www.together.ai/models/wan-2-6-image", "https://docs.together.ai/docs/serverless/models"]

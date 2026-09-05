@@ -1,0 +1,32 @@
+[model]
+name = "Qwen/Qwen-Image"
+display_name = "Qwen-Image"
+family = "Qwen Image"
+provider = "Together AI"
+release_date = "2025-08-01"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps (integer; official example uses 28)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.0058 per megapixel"
+
+[sources]
+urls = ["https://www.together.ai/models/qwen-image", "https://docs.together.ai/docs/serverless/models"]

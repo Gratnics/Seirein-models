@@ -1,0 +1,32 @@
+[model]
+name = "flux-pro-1.1-ultra"
+display_name = "FLUX1.1 [pro] Ultra"
+family = "FLUX1.1"
+provider = "Black Forest Labs"
+release_date = "2024-11-06"
+commercial_use = "Proprietary API-only; commercial use permitted via paid BFL API"
+
+[resolution]
+max = "4 megapixels"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "1 reference image (image_prompt), image_prompt_strength 0.0-1.0"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "safety_tolerance: 0-6 (default 2); raw: boolean (default false); image_prompt_strength: 0.0-1.0 (default 0.1)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.06 per image"
+
+[sources]
+urls = ["https://docs.bfl.ai/flux_models/flux_1_1_pro_ultra_raw", "https://docs.bfl.ml/quick_start/pricing", "https://bfl.ai/announcements/24-11-06-ultra"]

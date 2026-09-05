@@ -1,0 +1,32 @@
+[model]
+name = "ByteDance-Seed/Seedream-3.0"
+display_name = "Seedream 3.0"
+family = "Seedream (ByteDance Seed)"
+provider = "Together AI"
+release_date = "2025-04-20"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps (integer; official example uses 28; default/range not publicly documented)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.018 per megapixel"
+
+[sources]
+urls = ["https://www.together.ai/models/bytedance-seedream-3-0", "https://docs.together.ai/docs/serverless/models"]

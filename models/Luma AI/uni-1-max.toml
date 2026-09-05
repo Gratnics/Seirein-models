@@ -1,0 +1,32 @@
+[model]
+name = "uni-1-max"
+display_name = "Uni-1 Max"
+family = "Uni-1 (Unified Intelligence)"
+provider = "Luma AI"
+release_date = "2026-05-05"
+commercial_use = "Identical to uni-1"
+
+[resolution]
+max = "2048px (2K)"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "6,000 characters max"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "style: 'auto' | 'manga' - identical to uni-1; drop-in replacement, same wire format"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.1000/text-to-image (2K); $0.1030/edit or 1-ref generation; +$0.0030/additional ref"
+
+[sources]
+urls = ["https://docs.agents.lumalabs.ai/", "https://docs.agents.lumalabs.ai/guides/pricing/", "https://docs.agents.lumalabs.ai/guides/model/", "https://lumalabs.ai/news/uni-1-1-api"]

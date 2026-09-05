@@ -1,0 +1,32 @@
+[model]
+name = "google/flash-image-3.1-lite"
+display_name = "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)"
+family = "Gemini 3.1 / Nano Banana 2"
+provider = "Together AI"
+release_date = "2026-07-01"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = "undocumented"
+max_input_context = "undocumented"
+prompt_format = "undocumented"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "$0.069 per image (NOTE: weakest confirmation - no dedicated model page, price anomaly higher than non-lite variant, but IS in official serverless models table)"
+
+[sources]
+urls = ["https://docs.together.ai/docs/serverless/models", "https://docs.together.ai/docs/changelog"]

@@ -1,0 +1,32 @@
+[model]
+name = "RunDiffusion/Juggernaut-pro-flux"
+display_name = "Juggernaut Pro Flux"
+family = "Flux (RunDiffusion Juggernaut variant)"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = false
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.0049/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/juggernaut-pro-flux", "https://docs.together.ai/docs/serverless/models"]

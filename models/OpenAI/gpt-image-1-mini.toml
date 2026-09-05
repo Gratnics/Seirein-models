@@ -1,0 +1,32 @@
+[model]
+name = "gpt-image-1-mini"
+display_name = "GPT Image 1 Mini"
+family = "GPT Image"
+provider = "OpenAI"
+release_date = "undocumented"
+commercial_use = "Same terms as gpt-image-2"
+
+[resolution]
+max = "1536x1024 or 1024x1536"
+min = "1024x1024"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "32,000 characters"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "quality: 'low'|'medium'|'high'|'auto'; moderation: 'low'|'auto'. input_fidelity NOT supported"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "Text $2.00/1M ($0.20 cached); Image $2.50/1M ($0.25 cached); Batch: Text $1.00/1M ($0.10 cached), Image $1.25/1M ($0.13 cached)"
+output = "$8.00/1M image output tokens (standard) / $4.00/1M (Batch); per-image at 1024x1024: Low $0.005, Medium $0.011, High $0.036; at 1024x1536/1536x1024: Low $0.006, Medium $0.015, High $0.052"
+
+[sources]
+urls = ["https://developers.openai.com/api/docs/models/gpt-image-1-mini", "https://developers.openai.com/api/docs/pricing"]

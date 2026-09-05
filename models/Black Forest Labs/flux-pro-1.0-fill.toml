@@ -1,0 +1,32 @@
+[model]
+name = "flux-pro-1.0-fill"
+display_name = "FLUX.1 Fill [pro]"
+family = "FLUX.1 Tools"
+provider = "Black Forest Labs"
+release_date = "undocumented"
+commercial_use = "Proprietary API-only; commercial use permitted via paid BFL API"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "1 input image + 1 mask"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps: 15-50 (default 50); guidance: 1.5-100 (default 60); safety_tolerance: 0-6 (default 2)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.05 per image"
+
+[sources]
+urls = ["https://docs.bfl.ai/api-reference/models/inpaint-an-image-with-flux1-fill-[pro]-using-an-input-image-and-mask", "https://docs.bfl.ml/quick_start/pricing"]

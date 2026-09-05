@@ -1,0 +1,32 @@
+[model]
+name = "black-forest-labs/FLUX.2-max"
+display_name = "FLUX.2 [max]"
+family = "FLUX.2"
+provider = "Together AI"
+release_date = "2025-12-15"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented (no stated hard limit)"
+min = "undocumented"
+arbitrary_resolution = true
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = false
+level_param_values = "50 steps listed as 'Default Steps' in pricing table but not user-adjustable per docs"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.070/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/flux-2-max", "https://docs.together.ai/docs/serverless/models", "https://docs.together.ai/docs/quickstart-flux"]

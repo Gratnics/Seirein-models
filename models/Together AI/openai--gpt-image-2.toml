@@ -1,0 +1,32 @@
+[model]
+name = "openai/gpt-image-2"
+display_name = "GPT Image 2"
+family = "GPT Image (OpenAI)"
+provider = "Together AI"
+release_date = "2026-04-21"
+commercial_use = "undocumented"
+
+[resolution]
+max = "4K (1K/2K/4K native tiers)"
+min = "1K"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.053/image"
+
+[sources]
+urls = ["https://www.together.ai/models/gpt-image-2", "https://docs.together.ai/docs/serverless/models"]

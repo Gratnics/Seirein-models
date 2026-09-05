@@ -1,0 +1,32 @@
+[model]
+name = "p-image-ideogram"
+display_name = "P-Image-Ideogram"
+family = "P-Image-Ideogram"
+provider = "Ideogram"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "2048x2048 (custom, max 4,194,304 px, mult of 16) / preset 2K"
+min = "16x16 (custom, mult of 16) / preset 1K (default)"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = false
+max_input_context = "undocumented"
+prompt_format = "both (natural language or structured JSON, auto-detected)"
+
+[settings]
+has_level_settings = true
+level_param_values = "quality: VERY_LOW, LOW, MEDIUM, HIGH (default MEDIUM); resolution tier 1K/2K (default 1K)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.003-$0.015/image at 1K, by quality tier"
+
+[sources]
+urls = ["https://developer.ideogram.ai/api-reference/api-reference/generate-p-image-ideogram", "https://developer.ideogram.ai/openapi.json", "https://ideogram.ai/tools/p-image-ideogram/"]

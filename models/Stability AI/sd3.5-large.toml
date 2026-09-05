@@ -1,0 +1,32 @@
+[model]
+name = "sd3.5-large"
+display_name = "Stable Diffusion 3.5 Large"
+family = "Stable Diffusion 3.5"
+provider = "Stability AI"
+release_date = "2024-10-22"
+commercial_use = "Open-weight, Community License: free non-commercial + <$1M/yr revenue; Enterprise License above. Hosted API: pay-per-credit, Stability ToS"
+
+[resolution]
+max = "1 megapixel (default 1024x1024)"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "prompt 1-10,000 chars; negative_prompt <=10,000 chars"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "cfg_scale (1-10, default 4); style_preset"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "n/a"
+output = "6.5 credits/gen ($0.065)"
+
+[sources]
+urls = ["https://platform.stability.ai/docs/api-reference", "https://platform.stability.ai/pricing", "https://stability.ai/news-updates/introducing-stable-diffusion-3-5", "https://stability.ai/license"]

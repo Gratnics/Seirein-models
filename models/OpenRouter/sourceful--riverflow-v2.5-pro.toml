@@ -1,0 +1,32 @@
+[model]
+name = "sourceful/riverflow-v2.5-pro"
+display_name = "Riverflow 2.5 Pro"
+family = "Riverflow"
+provider = "OpenRouter"
+release_date = "2026-06-04"
+commercial_use = "undocumented (OpenRouter Terms of Service state ownership/usage rights in Output are 'set forth in the Model Terms for each Model you use' -- not restated per-model on individual model pages)"
+
+[resolution]
+max = "4K"
+min = "1K"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "32768"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "reasoning_effort param, values=['xhigh', 'high', 'medium', 'low'] (default=medium)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "text prompt: $0/M tokens"
+output = "image_output: $31.137725/M image-tokens"
+
+[sources]
+urls = ["https://openrouter.ai/sourceful/riverflow-v2.5-pro", "https://openrouter.ai/api/v1/images/models/sourceful/riverflow-v2.5-pro/endpoints", "https://openrouter.ai/api/v1/images/models", "https://openrouter.ai/api/v1/models?output_modalities=image"]

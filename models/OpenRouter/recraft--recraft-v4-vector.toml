@@ -1,0 +1,32 @@
+[model]
+name = "recraft/recraft-v4-vector"
+display_name = "Recraft V4 Vector"
+family = "Recraft"
+provider = "OpenRouter"
+release_date = "2026-05-13"
+commercial_use = "undocumented (OpenRouter Terms of Service state ownership/usage rights in Output are 'set forth in the Model Terms for each Model you use' -- not restated per-model on individual model pages)"
+
+[resolution]
+max = "undocumented (SVG)"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "65536"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = false
+level_param_values = "none documented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "text prompt: $0/M tokens"
+output = "image_output: $19.161677/M image-tokens"
+
+[sources]
+urls = ["https://openrouter.ai/recraft/recraft-v4-vector", "https://openrouter.ai/api/v1/images/models/recraft/recraft-v4-vector/endpoints", "https://openrouter.ai/api/v1/images/models", "https://openrouter.ai/api/v1/models?output_modalities=image"]

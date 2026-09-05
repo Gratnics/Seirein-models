@@ -1,0 +1,32 @@
+[model]
+name = "black-forest-labs/FLUX.1.1-pro"
+display_name = "FLUX1.1 [pro]"
+family = "FLUX.1.1"
+provider = "Together AI"
+release_date = "2024-10-03"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = true
+aspect_ratio_control = false
+
+[input]
+file_upload = "undocumented"
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps; 30-40 recommended for production quality"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.04/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/flux1-1-pro", "https://www.together.ai/blog/flux-api-is-now-available-on-together-ai-new-pro-free-access-to-flux-schnell", "https://docs.together.ai/docs/serverless/models"]

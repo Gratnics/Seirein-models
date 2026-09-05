@@ -1,0 +1,32 @@
+[model]
+name = "ByteDance/Seedream-5.0-lite"
+display_name = "Seedream 5.0 Lite"
+family = "Seedream (ByteDance)"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "4K (exact pixel dimensions undocumented)"
+min = "1920x1920"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = "undocumented"
+max_input_context = "undocumented"
+prompt_format = "undocumented"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "CONFLICTING: docs.together.ai/docs/serverless/models lists $0.035/MP, but model's own together.ai page states it is NOT available on Serverless API yet ('Launching soon')"
+
+[sources]
+urls = ["https://www.together.ai/models/seedream-50-lite", "https://docs.together.ai/docs/serverless/models"]

@@ -1,0 +1,32 @@
+[model]
+name = "ideogram-v4"
+display_name = "Ideogram 4.0"
+family = "Ideogram 4.0"
+provider = "Ideogram"
+release_date = "2026-06-03"
+commercial_use = "Yes - open weights, commercial license. No ownership claim on outputs. Self-serve $300/mo (10K-100K img/mo); Enterprise for 100K+/mo"
+
+[resolution]
+max = "2048x2048 (~4.19MP); non-square presets up to 3328x1248"
+min = "512x1536 (smallest preset)"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "both (text_prompt natural language OR json_prompt structured, mutually exclusive)"
+
+[settings]
+has_level_settings = true
+level_param_values = "rendering_speed: TURBO, DEFAULT, QUALITY (FLASH 'coming soon', currently 400s)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "undocumented (pricing page JS-rendered, never loaded)"
+
+[sources]
+urls = ["https://developer.ideogram.ai/api-reference/api-reference/generate-v4", "https://developer.ideogram.ai/openapi.json", "https://ideogram.ai/news/ideogram-4.0/", "https://ideogram.ai/licensing"]

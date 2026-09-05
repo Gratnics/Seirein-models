@@ -1,0 +1,32 @@
+[model]
+name = "dola-seedream-5-0-pro-260628"
+display_name = "Doubao-Seedream 5.0 Pro"
+family = "Seedream"
+provider = "ByteDance"
+release_date = "2026-07-08"
+commercial_use = "undocumented"
+
+[resolution]
+max = "4,624,220 total px (e.g. 2048x2048 x1.1025 at 2K tier)"
+min = "1280x720 (921,600 total px)"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented (guidance: <=300 Chinese chars / 600 English words recommended, not a hard limit)"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "size tiers: 1K, 1.5K, 2K (default 2K); optimize_prompt_options.mode: standard (default), fast"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "1st reference image free; each additional: $0.003"
+output = "<=2.61M px (<=1.5K): $0.045/image; >2.61M px: $0.09/image. Layer decomposition: half those rates"
+
+[sources]
+urls = ["https://docs.byteplus.com/en/docs/ModelArk/2582774", "https://docs.byteplus.com/en/docs/ModelArk/1541523", "https://docs.byteplus.com/en/docs/ModelArk/1544106", "https://docs.byteplus.com/en/docs/ModelArk/1330310"]

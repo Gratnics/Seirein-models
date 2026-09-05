@@ -1,0 +1,32 @@
+[model]
+name = "flux-dev"
+display_name = "FLUX.1 [dev]"
+family = "FLUX.1"
+provider = "Black Forest Labs"
+release_date = "2024-08-01"
+commercial_use = "Weights non-commercial license (commercial licensing available on request); BFL hosted API is separate paid service"
+
+[resolution]
+max = "1440x1440 pixels"
+min = "256x256 pixels"
+arbitrary_resolution = false
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "1 reference image (image_prompt)"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps: 1-50 (default 28); guidance: 1.5-5 (default 3); safety_tolerance: 0-6 (default 2)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "undocumented in current pricing table; $0.025/image per 2024-10-02 announcement (may be outdated)"
+
+[sources]
+urls = ["https://docs.bfl.ai/api-reference/models/generate-an-image-with-flux1-%5Bdev%5D", "https://bfl.ai/announcing-black-forest-labs/", "https://bfl.ai/announcing-flux-1-1-pro-and-the-bfl-api/"]

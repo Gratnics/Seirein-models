@@ -1,0 +1,32 @@
+[model]
+name = "gpt-image-2"
+display_name = "GPT Image 2"
+family = "GPT Image"
+provider = "OpenAI"
+release_date = "2026-04-21"
+commercial_use = "Customer owns Output per Business/API Service Terms; commercial use allowed; Output may not be used to develop competing AI models"
+
+[resolution]
+max = "3840x2160 (max edge 3840px, up to 8,294,400 total px)"
+min = "655,360 total px min; edges multiples of 16"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "32,000 characters"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "quality: 'low'|'medium'|'high'|'auto' (default auto); moderation: 'low'|'auto'; input_fidelity not adjustable (always high)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "Text $5.00/1M tok ($1.25 cached); Image $8.00/1M tok ($2.00 cached); Batch: Text $2.50/1M ($0.625 cached), Image $4.00/1M ($1.00 cached)"
+output = "$30.00/1M image output tokens (standard); $15.00/1M (Batch)"
+
+[sources]
+urls = ["https://developers.openai.com/api/docs/models/gpt-image-2", "https://developers.openai.com/api/docs/guides/image-generation", "https://developers.openai.com/api/docs/pricing", "https://developers.openai.com/api/reference/resources/images/methods/generate"]

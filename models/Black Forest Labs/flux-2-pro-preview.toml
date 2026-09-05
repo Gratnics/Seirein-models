@@ -1,0 +1,32 @@
+[model]
+name = "flux-2-pro-preview"
+display_name = "FLUX.2 [pro] (Preview)"
+family = "FLUX.2"
+provider = "Black Forest Labs"
+release_date = "2026-03-03"
+commercial_use = "Proprietary API-only; preview channel of flux-2-pro"
+
+[resolution]
+max = "4 megapixels"
+min = "64x64 pixels"
+arbitrary_resolution = true
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "up to 8 input images"
+prompt_format = "both"
+
+[settings]
+has_level_settings = true
+level_param_values = "safety_tolerance: 0-5 (default 2)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "matches flux-2-pro tier (from $0.03/MP)"
+
+[sources]
+urls = ["https://docs.bfl.ai/api-reference/models/generate-or-edit-an-image-with-flux2-[pro]-preview", "https://docs.bfl.ai/release-notes"]

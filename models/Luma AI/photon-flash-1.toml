@@ -1,0 +1,32 @@
+[model]
+name = "photon-flash-1"
+display_name = "Photon Flash"
+family = "Photon"
+provider = "Luma AI"
+release_date = "undocumented"
+commercial_use = "Same as photon-1"
+
+[resolution]
+max = "1080p / 2 megapixels"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "same weight params as photon-1"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "CONFLICTING: changelog says $0.002/image; lumalabs.ai/photon says $0.004/image — could not resolve"
+
+[sources]
+urls = ["https://docs.lumalabs.ai/docs/image-generation", "https://docs.lumalabs.ai/reference/generateimage.md", "https://docs.lumalabs.ai/changelog/luma-photon-photon-flash-api", "https://lumalabs.ai/photon"]

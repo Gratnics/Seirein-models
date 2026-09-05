@@ -1,0 +1,32 @@
+[model]
+name = "gemini-3.1-flash-image"
+display_name = "Gemini 3.1 Flash Image (Nano Banana 2)"
+family = "Gemini"
+provider = "Google"
+release_date = "2026-05-28"
+commercial_use = "undocumented"
+
+[resolution]
+max = "4096x4096 (4K)"
+min = "512x512 (0.5K)"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "1,000,000 tokens input; 4K image / 64K text output tokens"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "image_size: 512px/1K/2K/4K; thinking_level: minimal (default)|high; up to 14 reference images (6 hi-fi objects, 5 character, 3 style)"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "$0.50/1M tokens (text/image)"
+output = "$60.00/1M tokens (images); per-image: $0.045 (0.5K), $0.067 (1K), $0.101 (2K), $0.151 (4K)"
+
+[sources]
+urls = ["https://ai.google.dev/gemini-api/docs/image-generation", "https://ai.google.dev/gemini-api/docs/pricing", "https://ai.google.dev/gemini-api/docs/changelog", "https://deepmind.google/models/model-cards/gemini-3-1-flash-image/"]

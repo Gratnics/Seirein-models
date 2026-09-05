@@ -1,0 +1,32 @@
+[model]
+name = "stabilityai/stable-diffusion-xl-base-1.0"
+display_name = "Stable Diffusion XL 1.0"
+family = "Stable Diffusion XL"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = false
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.0019/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/sd-xl", "https://docs.together.ai/docs/serverless/models"]

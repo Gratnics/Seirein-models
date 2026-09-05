@@ -1,0 +1,32 @@
+[model]
+name = "openai/gpt-image-1.5"
+display_name = "GPT Image 1.5"
+family = "GPT Image (OpenAI)"
+provider = "Together AI"
+release_date = "undocumented"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "$0.034/image"
+
+[sources]
+urls = ["https://www.together.ai/models/gpt-image-1-5", "https://docs.together.ai/docs/serverless/models"]

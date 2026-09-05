@@ -1,0 +1,32 @@
+[model]
+name = "google/gemini-3-pro-image"
+display_name = "Gemini 3 Pro Image (Nano Banana Pro)"
+family = "Gemini 3 / Nano Banana Pro"
+provider = "Together AI"
+release_date = "2025-11-20"
+commercial_use = "undocumented"
+
+[resolution]
+max = "4K"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "1080p/2K: $0.134/image; 4K: $0.24/image"
+
+[sources]
+urls = ["https://www.together.ai/models/nano-banana-pro", "https://docs.together.ai/docs/serverless/models"]

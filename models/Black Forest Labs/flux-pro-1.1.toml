@@ -1,0 +1,32 @@
+[model]
+name = "flux-pro-1.1"
+display_name = "FLUX1.1 [pro]"
+family = "FLUX1.1"
+provider = "Black Forest Labs"
+release_date = "2024-10-02"
+commercial_use = "Proprietary API-only; commercial use permitted via paid BFL API"
+
+[resolution]
+max = "1440x1440 pixels"
+min = "256x256 pixels"
+arbitrary_resolution = false
+aspect_ratio_control = false
+
+[input]
+file_upload = true
+max_input_context = "1 reference image (image_prompt)"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "safety_tolerance: 0-6 (default 2); prompt_upsampling: boolean"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.04 per image"
+
+[sources]
+urls = ["https://docs.bfl.ai/api-reference/models/generate-an-image-with-flux11-[pro]", "https://docs.bfl.ml/quick_start/pricing", "https://bfl.ai/announcing-flux-1-1-pro-and-the-bfl-api/"]

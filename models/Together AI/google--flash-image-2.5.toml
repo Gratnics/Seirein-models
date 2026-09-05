@@ -1,0 +1,32 @@
+[model]
+name = "google/flash-image-2.5"
+display_name = "Gemini 2.5 Flash Image (Nano Banana)"
+family = "Gemini / Nano Banana"
+provider = "Together AI"
+release_date = "2025-10-01"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "$0.039 per image"
+
+[sources]
+urls = ["https://www.together.ai/models/gemini-flash-image-2-5", "https://docs.together.ai/docs/serverless/models", "https://www.together.ai/blog/40-new-image-and-video-models", "https://www.together.ai/pricing"]

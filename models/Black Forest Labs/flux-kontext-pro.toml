@@ -1,0 +1,32 @@
+[model]
+name = "flux-kontext-pro"
+display_name = "FLUX.1 Kontext [pro]"
+family = "FLUX.1 Kontext"
+provider = "Black Forest Labs"
+release_date = "2025-05-29"
+commercial_use = "Proprietary API-only; commercial use permitted via paid BFL API. Legacy - docs recommend FLUX.2 [pro]/[flex] instead"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "up to 4 input images (multiref experimental)"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "safety_tolerance: 0-6 (default 2); prompt_upsampling: boolean (default false)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "$0.04 per image"
+
+[sources]
+urls = ["https://docs.bfl.ai/api-reference/models/edit-or-create-an-image-with-flux1-kontext-[pro]", "https://docs.bfl.ml/quick_start/pricing", "https://bfl.ai/announcements/flux-1-kontext"]

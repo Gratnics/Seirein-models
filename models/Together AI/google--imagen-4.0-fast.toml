@@ -1,0 +1,32 @@
+[model]
+name = "google/imagen-4.0-fast"
+display_name = "Imagen 4 Fast"
+family = "Imagen 4.0"
+provider = "Together AI"
+release_date = "2025-08-14"
+commercial_use = "undocumented"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = false
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = "undocumented"
+
+[pricing]
+input = "undocumented"
+output = "$0.02 per megapixel (MP)"
+
+[sources]
+urls = ["https://www.together.ai/models/google-imagen-4-0-fast", "https://docs.together.ai/docs/serverless/models", "https://www.together.ai/pricing"]

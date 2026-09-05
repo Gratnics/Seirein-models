@@ -1,0 +1,32 @@
+[model]
+name = "stable-image-core"
+display_name = "Stable Image Core"
+family = "Stable Image"
+provider = "Stability AI"
+release_date = "2024-03-21"
+commercial_use = "Permitted; Output owned by user; per-credit API"
+
+[resolution]
+max = "1.5 megapixels"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = false
+max_input_context = "prompt 1-10,000 chars; negative_prompt <=10,000 chars"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "style_preset (same enum as Ultra)"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "n/a"
+output = "3 credits/gen ($0.03)"
+
+[sources]
+urls = ["https://platform.stability.ai/docs/api-reference", "https://platform.stability.ai/pricing", "https://platform.stability.ai/docs/release-notes"]

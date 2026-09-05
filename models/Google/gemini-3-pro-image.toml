@@ -1,0 +1,32 @@
+[model]
+name = "gemini-3-pro-image"
+display_name = "Gemini 3 Pro Image (Nano Banana Pro)"
+family = "Gemini"
+provider = "Google"
+release_date = "2026-05-28"
+commercial_use = "undocumented"
+
+[resolution]
+max = "4096x4096 (4K)"
+min = "1024x1024 (1K)"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "1,000,000 tokens input; 64K token output"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "image_size: 1K/2K/4K; up to 14 reference images (6 objects, 5 characters, 3 style); Google Search grounding toggle"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "$2.00/1M tokens (text/image), ~$0.0011/image"
+output = "$120.00/1M tokens (images); per-image: $0.134 (1K/2K), $0.24 (4K)"
+
+[sources]
+urls = ["https://ai.google.dev/gemini-api/docs/image-generation", "https://ai.google.dev/gemini-api/docs/pricing", "https://ai.google.dev/gemini-api/docs/changelog", "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Image-Model-Card.pdf"]

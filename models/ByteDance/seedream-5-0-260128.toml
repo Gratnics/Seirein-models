@@ -1,0 +1,32 @@
+[model]
+name = "seedream-5-0-260128"
+display_name = "Seedream 5.0 Lite"
+family = "Seedream"
+provider = "ByteDance"
+release_date = "2026-02-24"
+commercial_use = "undocumented"
+
+[resolution]
+max = "16,777,216 total px (4096x4096)"
+min = "2560x1440 (3,686,400 total px)"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "undocumented"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "size tiers: 2K, 3K, 4K (default 2048x2048); optimize_prompt_options.mode: standard only. Alias model ID seedream-5-0-lite-260128 also documented as equivalent ('Seedream 5.0 Lite')"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "reference images free"
+output = "$0.035/image"
+
+[sources]
+urls = ["https://docs.byteplus.com/en/docs/ModelArk/2582774", "https://docs.byteplus.com/en/docs/ModelArk/1541523", "https://docs.byteplus.com/en/docs/ModelArk/1544106", "https://docs.byteplus.com/en/docs/ModelArk/1330310"]

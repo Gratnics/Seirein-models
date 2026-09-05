@@ -1,0 +1,32 @@
+[model]
+name = "openai/gpt-image-1-mini"
+display_name = "GPT Image 1 Mini"
+family = "GPT Image"
+provider = "OpenRouter"
+release_date = "2026-06-24"
+commercial_use = "undocumented (OpenRouter Terms of Service state ownership/usage rights in Output are 'set forth in the Model Terms for each Model you use' -- not restated per-model on individual model pages)"
+
+[resolution]
+max = "undocumented"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "400000"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "quality param, values=['auto', 'low', 'medium', 'high']"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "text prompt: $2.5/M tokens"
+output = "text completion: $2.5/M tokens; image_output: $8/M image-tokens"
+
+[sources]
+urls = ["https://openrouter.ai/openai/gpt-image-1-mini", "https://openrouter.ai/api/v1/images/models/openai/gpt-image-1-mini/endpoints", "https://openrouter.ai/api/v1/images/models", "https://openrouter.ai/api/v1/models?output_modalities=image"]

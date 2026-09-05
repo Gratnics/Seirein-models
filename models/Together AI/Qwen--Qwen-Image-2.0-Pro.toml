@@ -1,0 +1,32 @@
+[model]
+name = "Qwen/Qwen-Image-2.0-Pro"
+display_name = "Qwen-Image-2.0-Pro"
+family = "Qwen Image 2.0 (Pro tier, 7B)"
+provider = "Together AI"
+release_date = "2026-02-09"
+commercial_use = "undocumented"
+
+[resolution]
+max = "2048x2048 (native 2K)"
+min = "512x512"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "1000 tokens (prompt)"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "steps (integer; official example uses 28); seed-based reproducibility"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "CONFLICTING: model page says $0.08/image; docs page says $0.075/MP"
+
+[sources]
+urls = ["https://www.together.ai/models/qwen-image-20-pro", "https://docs.together.ai/docs/serverless/models"]

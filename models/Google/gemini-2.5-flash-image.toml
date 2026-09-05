@@ -1,0 +1,32 @@
+[model]
+name = "gemini-2.5-flash-image"
+display_name = "Gemini 2.5 Flash Image (Nano Banana)"
+family = "Gemini"
+provider = "Google"
+release_date = "2025-10-02"
+commercial_use = "undocumented"
+
+[resolution]
+max = "1024x1024 (1K)"
+min = "undocumented"
+arbitrary_resolution = "undocumented"
+aspect_ratio_control = "undocumented"
+
+[input]
+file_upload = true
+max_input_context = "65,536 tokens input; 32,768 tokens output"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = "undocumented"
+level_param_values = "undocumented"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "$0.30/1M tokens (text/image)"
+output = "$30.00/1M tokens (images); ~$0.039/image (1024x1024 = 1290 tokens)"
+
+[sources]
+urls = ["https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image", "https://ai.google.dev/gemini-api/docs/image-generation", "https://ai.google.dev/gemini-api/docs/pricing", "https://ai.google.dev/gemini-api/docs/changelog"]
