@@ -1,0 +1,24 @@
+[model]
+name = "aura-2"
+display_name = "Aura 2"
+family = "Aura"
+provider = "Deepgram"
+release_date = "undocumented"
+commercial_use = "Subject to Deepgram terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "English and model-specific languages"
+streaming = true
+
+[limits]
+context = "endpoint dependent"
+voice = "voice/model-specific"
+
+[pricing]
+input = "character-based; see Deepgram pricing"
+output = "audio bytes"
+
+[sources]
+urls = ["https://developers.deepgram.com/docs/text-to-speech", "https://developers.deepgram.com/docs/tts-models"]

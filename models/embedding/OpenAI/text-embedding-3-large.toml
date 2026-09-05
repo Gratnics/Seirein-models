@@ -1,0 +1,23 @@
+[model]
+name = "text-embedding-3-large"
+display_name = "text-embedding-3-large"
+family = "text-embedding-3"
+provider = "OpenAI"
+release_date = "2024-01-25"
+commercial_use = "Subject to OpenAI API terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "1-3072 (default 3072)"
+
+[limits]
+context = "8192 tokens"
+batch = "multiple inputs"
+
+[pricing]
+input = "See OpenAI embeddings pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://platform.openai.com/docs/models", "https://platform.openai.com/docs/guides/embeddings"]

@@ -1,0 +1,25 @@
+[model]
+name = "gpt-4o-transcribe"
+display_name = "GPT-4o Transcribe (Azure OpenAI)"
+family = "GPT Audio"
+provider = "Azure OpenAI"
+release_date = "undocumented"
+commercial_use = "Subject to Azure OpenAI terms and regional availability"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "deployment/model dependent"
+streaming = true
+diarization = false
+
+[limits]
+context = "deployment dependent"
+file_formats = "Azure OpenAI audio endpoint formats"
+
+[pricing]
+input = "See Azure OpenAI pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://learn.microsoft.com/azure/ai-services/openai/concepts/models", "https://learn.microsoft.com/azure/ai-services/openai/whats-new"]

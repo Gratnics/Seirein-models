@@ -1,0 +1,32 @@
+[model]
+name = "google/imagen-4-ultra"
+display_name = "Imagen 4 Ultra"
+family = "Imagen"
+provider = "Replicate"
+release_date = "undocumented"
+commercial_use = "Subject to Replicate and Google model terms"
+
+[resolution]
+max = "up to 2K class"
+min = "model endpoint dependent"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = false
+max_input_context = "prompt endpoint"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "aspect_ratio; safety_filter_level; person_generation; seed"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "Per image; see model page"
+
+[sources]
+urls = ["https://replicate.com/google/imagen-4-ultra", "https://replicate.com/collections/text-to-image"]

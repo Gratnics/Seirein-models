@@ -1,0 +1,25 @@
+[model]
+name = "general"
+display_name = "Rev AI General"
+family = "Rev AI Speech Recognition"
+provider = "Rev.ai"
+release_date = "undocumented"
+commercial_use = "Subject to Rev AI terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "English"
+streaming = true
+diarization = true
+
+[limits]
+context = "endpoint dependent"
+file_formats = "provider supported audio formats"
+
+[pricing]
+input = "audio-minute based; see Rev AI pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://www.rev.ai/docs", "https://www.rev.ai/api/speech-to-text"]

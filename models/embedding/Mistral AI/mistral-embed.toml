@@ -1,0 +1,23 @@
+[model]
+name = "mistral-embed"
+display_name = "Mistral Embed"
+family = "Mistral Embeddings"
+provider = "Mistral AI"
+release_date = "2023-12-01"
+commercial_use = "Subject to Mistral AI terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "1024"
+
+[limits]
+context = "undocumented"
+batch = "multiple inputs"
+
+[pricing]
+input = "See Mistral AI pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.mistral.ai/api/endpoint/embeddings", "https://docs.mistral.ai/resources/cookbooks/mistral-embeddings-embeddings"]

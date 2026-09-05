@@ -1,0 +1,25 @@
+[model]
+name = "accurate"
+display_name = "Gladia Accurate"
+family = "Gladia STT"
+provider = "Gladia"
+release_date = "undocumented"
+commercial_use = "Subject to Gladia terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "multilingual"
+streaming = true
+diarization = true
+
+[limits]
+context = "endpoint dependent"
+file_formats = "provider supported audio formats"
+
+[pricing]
+input = "audio-minute based; see Gladia pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://docs.gladia.io/", "https://docs.gladia.io/api-reference/audio-to-text"]

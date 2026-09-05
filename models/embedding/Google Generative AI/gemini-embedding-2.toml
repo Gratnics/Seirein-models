@@ -1,0 +1,23 @@
+[model]
+name = "gemini-embedding-2"
+display_name = "Gemini Embedding 2"
+family = "Gemini Embedding"
+provider = "Google Generative AI"
+release_date = "2026-04-01"
+commercial_use = "Subject to Google AI terms"
+
+[capabilities]
+input_modalities = ["text", "image", "video", "audio", "pdf"]
+output_modality = "embedding"
+dimensions = "128-3072 (recommended 768, 1536, or 3072)"
+
+[limits]
+context = "8192 tokens"
+batch = "Batch API supported"
+
+[pricing]
+input = "See Gemini API pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://ai.google.dev/gemini-api/docs/embeddings", "https://ai.google.dev/gemini-api/docs/models"]

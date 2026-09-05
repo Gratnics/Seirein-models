@@ -1,0 +1,25 @@
+[model]
+name = "universal-3-pro"
+display_name = "Universal-3 Pro"
+family = "Universal"
+provider = "AssemblyAI"
+release_date = "undocumented"
+commercial_use = "Subject to AssemblyAI terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "model supported languages"
+streaming = true
+diarization = true
+
+[limits]
+context = "audio duration and request limits are endpoint dependent"
+file_formats = "provider supported audio formats"
+
+[pricing]
+input = "audio-hour based; see AssemblyAI pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://www.assemblyai.com/docs/speech-to-text", "https://www.assemblyai.com/docs/models"]

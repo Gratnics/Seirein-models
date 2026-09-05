@@ -1,0 +1,25 @@
+[model]
+name = "deepgram/nova-3"
+display_name = "Nova-3 (via Vercel AI Gateway)"
+family = "Nova"
+provider = "Vercel AI Gateway"
+release_date = "undocumented"
+commercial_use = "Subject to the upstream provider and Vercel terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "upstream model dependent"
+streaming = true
+diarization = true
+
+[limits]
+context = "upstream model dependent"
+file_formats = "upstream model dependent"
+
+[pricing]
+input = "upstream provider price plus gateway terms"
+output = "transcript"
+
+[sources]
+urls = ["https://vercel.com/docs/ai-gateway/models-and-providers", "https://vercel.com/docs/ai-sdk-core/transcription"]

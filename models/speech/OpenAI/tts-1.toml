@@ -1,0 +1,24 @@
+[model]
+name = "tts-1"
+display_name = "TTS-1"
+family = "TTS"
+provider = "OpenAI"
+release_date = "2023-11-06"
+commercial_use = "Subject to OpenAI API terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "multilingual"
+streaming = true
+
+[limits]
+context = "endpoint dependent"
+voice = "alloy, ash, ballad, coral, echo, fable, onyx, nova, sage, shimmer"
+
+[pricing]
+input = "See OpenAI audio pricing"
+output = "audio bytes"
+
+[sources]
+urls = ["https://platform.openai.com/docs/models", "https://platform.openai.com/docs/guides/text-to-speech"]

@@ -1,0 +1,32 @@
+[model]
+name = "black-forest-labs/FLUX-1.1-pro"
+display_name = "FLUX 1.1 Pro"
+family = "FLUX"
+provider = "DeepInfra"
+release_date = "undocumented"
+commercial_use = "Subject to DeepInfra and model license terms"
+
+[resolution]
+max = "provider/model dependent"
+min = "provider/model dependent"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "provider/model dependent"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "width; height; num_inference_steps; guidance_scale; seed"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "See DeepInfra model pricing"
+
+[sources]
+urls = ["https://deepinfra.com/black-forest-labs/FLUX-1.1-pro", "https://deepinfra.com/models/image"]

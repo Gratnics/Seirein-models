@@ -1,0 +1,32 @@
+[model]
+name = "recraft-v4-pro"
+display_name = "Recraft V4 Pro"
+family = "Recraft"
+provider = "Recraft"
+release_date = "undocumented"
+commercial_use = "Subject to Recraft API terms"
+
+[resolution]
+max = "up to 2048px class"
+min = "undocumented"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "reference image support depends on endpoint"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "size; style; response_format; n; seed where supported"
+
+[output]
+batch_supported = false
+
+[pricing]
+input = "undocumented"
+output = "See Recraft API pricing"
+
+[sources]
+urls = ["https://www.recraft.ai/docs/api-reference/models", "https://www.recraft.ai/api"]

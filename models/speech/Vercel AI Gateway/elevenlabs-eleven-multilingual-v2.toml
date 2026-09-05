@@ -1,0 +1,24 @@
+[model]
+name = "elevenlabs/eleven_multilingual_v2"
+display_name = "Eleven Multilingual v2 (via Vercel AI Gateway)"
+family = "Eleven"
+provider = "Vercel AI Gateway"
+release_date = "undocumented"
+commercial_use = "Subject to the upstream provider and Vercel terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "upstream model dependent"
+streaming = true
+
+[limits]
+context = "upstream model dependent"
+voice = "upstream voice configuration"
+
+[pricing]
+input = "upstream provider price plus gateway terms"
+output = "audio bytes"
+
+[sources]
+urls = ["https://vercel.com/docs/ai-gateway/models-and-providers", "https://vercel.com/docs/ai-sdk-core/audio-generation"]

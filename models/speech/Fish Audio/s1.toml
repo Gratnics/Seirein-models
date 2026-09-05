@@ -1,0 +1,24 @@
+[model]
+name = "s1"
+display_name = "Fish Audio S1"
+family = "Fish Audio"
+provider = "Fish Audio"
+release_date = "undocumented"
+commercial_use = "Subject to Fish Audio terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "multilingual"
+streaming = true
+
+[limits]
+context = "endpoint dependent"
+voice = "voice/model-specific"
+
+[pricing]
+input = "See Fish Audio pricing"
+output = "audio bytes"
+
+[sources]
+urls = ["https://speech.fish.audio/", "https://fish.audio/go-api/"]

@@ -1,0 +1,25 @@
+[model]
+name = "whisper-large-v3-turbo"
+display_name = "Whisper Large V3 Turbo"
+family = "Whisper"
+provider = "Groq"
+release_date = "2024-09-01"
+commercial_use = "Subject to Groq and model license terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "multilingual"
+streaming = false
+diarization = false
+
+[limits]
+context = "100 MB developer-tier file limit"
+file_formats = "flac, mp3, mp4, mpeg, mpga, m4a, ogg, wav, webm"
+
+[pricing]
+input = "$0.04 per hour (documented Groq price)"
+output = "transcript"
+
+[sources]
+urls = ["https://console.groq.com/docs/speech-to-text", "https://console.groq.com/docs/models"]

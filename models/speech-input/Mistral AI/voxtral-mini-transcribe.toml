@@ -1,0 +1,25 @@
+[model]
+name = "voxtral-mini-transcribe-2-2602"
+display_name = "Voxtral Mini Transcribe"
+family = "Voxtral"
+provider = "Mistral AI"
+release_date = "undocumented"
+commercial_use = "Subject to Mistral AI terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "multilingual"
+streaming = true
+diarization = false
+
+[limits]
+context = "endpoint dependent"
+file_formats = "Mistral audio endpoint formats"
+
+[pricing]
+input = "See Mistral AI pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://docs.mistral.ai/capabilities/speech-to-text", "https://docs.mistral.ai/models"]

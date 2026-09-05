@@ -1,0 +1,24 @@
+[model]
+name = "gpt-4o-mini-tts"
+display_name = "GPT-4o mini TTS"
+family = "GPT Audio"
+provider = "OpenAI"
+release_date = "undocumented"
+commercial_use = "Subject to OpenAI API terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "multilingual"
+streaming = true
+
+[limits]
+context = "endpoint dependent"
+voice = "built-in voice selection"
+
+[pricing]
+input = "See OpenAI audio pricing"
+output = "audio tokens/bytes; see OpenAI pricing"
+
+[sources]
+urls = ["https://platform.openai.com/docs/models", "https://platform.openai.com/docs/guides/text-to-speech"]

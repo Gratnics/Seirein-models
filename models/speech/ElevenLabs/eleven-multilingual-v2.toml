@@ -1,0 +1,24 @@
+[model]
+name = "eleven_multilingual_v2"
+display_name = "Eleven Multilingual v2"
+family = "Eleven"
+provider = "ElevenLabs"
+release_date = "2023-11-01"
+commercial_use = "Subject to ElevenLabs terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "29"
+streaming = true
+
+[limits]
+context = "maximum text length is account/model dependent"
+voice = "voice_id required"
+
+[pricing]
+input = "character-based; see ElevenLabs pricing"
+output = "audio bytes"
+
+[sources]
+urls = ["https://elevenlabs.io/docs/api-reference/models/list", "https://elevenlabs.io/docs/api-reference/text-to-speech/convert"]

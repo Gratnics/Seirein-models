@@ -1,0 +1,24 @@
+[model]
+name = "grok-voice-latest"
+display_name = "Grok Voice (latest)"
+family = "Grok Audio"
+provider = "xAI"
+release_date = "undocumented"
+commercial_use = "Subject to xAI terms and availability"
+
+[capabilities]
+input_modalities = ["text", "audio"]
+output_modality = "audio"
+languages = "provider dependent"
+streaming = true
+
+[limits]
+context = "realtime session dependent"
+voice = "voice configuration"
+
+[pricing]
+input = "See xAI API pricing"
+output = "See xAI API pricing"
+
+[sources]
+urls = ["https://docs.x.ai/developers/model-capabilities/audio/text-to-speech", "https://docs.x.ai/developers/model-capabilities/audio/speech-to-speech"]

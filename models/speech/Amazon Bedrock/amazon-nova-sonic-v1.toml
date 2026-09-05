@@ -1,0 +1,24 @@
+[model]
+name = "amazon.nova-sonic-v1:0"
+display_name = "Amazon Nova Sonic"
+family = "Nova Sonic"
+provider = "Amazon Bedrock"
+release_date = "2025-03-01"
+commercial_use = "Available under Amazon Bedrock service terms"
+
+[capabilities]
+input_modalities = ["text", "audio"]
+output_modality = "audio and text"
+languages = "English, French, Italian, German, Spanish"
+streaming = true
+
+[limits]
+context = "bidirectional streaming session"
+voice = "model voice configuration"
+
+[pricing]
+input = "See Amazon Bedrock pricing"
+output = "audio/text usage; see Amazon Bedrock pricing"
+
+[sources]
+urls = ["https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic.html", "https://docs.aws.amazon.com/nova/latest/userguide/s2s-example.html"]

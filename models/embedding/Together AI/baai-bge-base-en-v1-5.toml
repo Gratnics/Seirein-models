@@ -1,0 +1,23 @@
+[model]
+name = "BAAI/bge-base-en-v1.5"
+display_name = "BGE Base EN v1.5"
+family = "BGE"
+provider = "Together AI"
+release_date = "2023-08-22"
+commercial_use = "Subject to Together AI and model license terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "768"
+
+[limits]
+context = "512 tokens"
+batch = "multiple inputs"
+
+[pricing]
+input = "See Together AI pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.together.ai/docs/serverless-models", "https://docs.together.ai/docs/embeddings-overview"]

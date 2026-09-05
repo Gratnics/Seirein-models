@@ -1,0 +1,32 @@
+[model]
+name = "workflow"
+display_name = "ComfyUI Workflow"
+family = "ComfyUI"
+provider = "ComfyUI"
+release_date = "undocumented"
+commercial_use = "Depends on the checkpoint, custom nodes, and workflow license"
+
+[resolution]
+max = "workflow dependent"
+min = "workflow dependent"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "workflow dependent"
+prompt_format = "workflow-defined"
+
+[settings]
+has_level_settings = true
+level_param_values = "workflow-defined node inputs"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "self-hosted infrastructure cost"
+output = "self-hosted infrastructure cost"
+
+[sources]
+urls = ["https://docs.comfy.org/", "https://github.com/comfyanonymous/ComfyUI"]

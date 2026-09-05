@@ -1,0 +1,32 @@
+[model]
+name = "fal-ai/flux-2-pro"
+display_name = "FLUX.2 Pro"
+family = "FLUX.2"
+provider = "Fal AI"
+release_date = "undocumented"
+commercial_use = "Subject to Fal AI and model license terms"
+
+[resolution]
+max = "provider/model dependent"
+min = "provider/model dependent"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "provider/model dependent"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "image_size; num_images; output_format; safety_tolerance; seed"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "See Fal AI model pricing"
+
+[sources]
+urls = ["https://fal.ai/models/fal-ai/flux-2-pro", "https://docs.fal.ai/model-apis/overview"]

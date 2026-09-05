@@ -1,0 +1,23 @@
+[model]
+name = "text-embedding-3-small"
+display_name = "OpenAI-compatible embedding endpoint"
+family = "OpenAI-compatible embeddings"
+provider = "OpenAI Compatible"
+release_date = "undocumented"
+commercial_use = "Depends on the configured compatible service"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "provider/model dependent"
+
+[limits]
+context = "provider/model dependent"
+batch = "provider/model dependent"
+
+[pricing]
+input = "provider/model dependent"
+output = "embedding vector"
+
+[sources]
+urls = ["https://ai-sdk.dev/providers/ai-sdk-providers/openai-compatible", "https://platform.openai.com/docs/guides/embeddings"]

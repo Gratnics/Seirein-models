@@ -1,0 +1,23 @@
+[model]
+name = "gemini-embedding-001"
+display_name = "Gemini Embedding"
+family = "Gemini Embedding"
+provider = "Google Generative AI"
+release_date = "2025-06-01"
+commercial_use = "Subject to Google AI terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "128-3072 (default 3072)"
+
+[limits]
+context = "2048 tokens"
+batch = "Batch API supported"
+
+[pricing]
+input = "See Gemini API pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://ai.google.dev/gemini-api/docs/embeddings"]

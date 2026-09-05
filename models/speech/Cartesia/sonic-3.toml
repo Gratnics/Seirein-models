@@ -1,0 +1,24 @@
+[model]
+name = "sonic-3"
+display_name = "Sonic 3"
+family = "Sonic"
+provider = "Cartesia"
+release_date = "undocumented"
+commercial_use = "Subject to Cartesia terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "multilingual"
+streaming = true
+
+[limits]
+context = "endpoint dependent"
+voice = "voice_id required"
+
+[pricing]
+input = "character-based; see Cartesia pricing"
+output = "audio bytes"
+
+[sources]
+urls = ["https://docs.cartesia.ai/build-with-cartesia/tts", "https://docs.cartesia.ai/api-reference/tts"]

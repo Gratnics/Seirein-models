@@ -1,0 +1,23 @@
+[model]
+name = "voyage-4-large"
+display_name = "Voyage 4 Large"
+family = "Voyage 4"
+provider = "Voyage AI"
+release_date = "undocumented"
+commercial_use = "Subject to Voyage AI terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "256, 512, 1024, or 2048 (default 1024)"
+
+[limits]
+context = "32000 tokens"
+batch = "up to 1000 inputs"
+
+[pricing]
+input = "See Voyage AI pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.voyageai.com/docs/embeddings", "https://docs.voyageai.com/docs/faq"]

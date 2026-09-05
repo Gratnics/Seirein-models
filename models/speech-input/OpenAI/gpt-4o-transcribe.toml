@@ -1,0 +1,25 @@
+[model]
+name = "gpt-4o-transcribe"
+display_name = "GPT-4o Transcribe"
+family = "GPT Audio"
+provider = "OpenAI"
+release_date = "undocumented"
+commercial_use = "Subject to OpenAI API terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "multilingual"
+streaming = true
+diarization = false
+
+[limits]
+context = "endpoint dependent"
+file_formats = "OpenAI audio endpoint formats"
+
+[pricing]
+input = "See OpenAI audio pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://platform.openai.com/docs/models", "https://platform.openai.com/docs/guides/speech-to-text"]

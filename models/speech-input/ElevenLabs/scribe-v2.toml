@@ -1,0 +1,25 @@
+[model]
+name = "scribe_v2"
+display_name = "Scribe v2"
+family = "Scribe"
+provider = "ElevenLabs"
+release_date = "undocumented"
+commercial_use = "Subject to ElevenLabs terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "model supported languages"
+streaming = true
+diarization = true
+
+[limits]
+context = "endpoint dependent"
+file_formats = "provider supported audio formats"
+
+[pricing]
+input = "audio-minute based; see ElevenLabs pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://elevenlabs.io/docs/overview/models", "https://elevenlabs.io/docs/api-reference/speech-to-text"]

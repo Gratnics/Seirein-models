@@ -1,0 +1,25 @@
+[model]
+name = "nova-3"
+display_name = "Nova-3"
+family = "Nova"
+provider = "Deepgram"
+release_date = "undocumented"
+commercial_use = "Subject to Deepgram terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "multilingual"
+streaming = true
+diarization = true
+
+[limits]
+context = "audio duration and request limits are endpoint dependent"
+file_formats = "provider supported audio formats"
+
+[pricing]
+input = "audio-minute based; see Deepgram pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://developers.deepgram.com/docs/models", "https://developers.deepgram.com/docs/pre-recorded-audio"]

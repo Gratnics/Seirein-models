@@ -1,0 +1,32 @@
+[model]
+name = "openai/gpt-image-1"
+display_name = "GPT Image 1 (via Vercel AI Gateway)"
+family = "GPT Image"
+provider = "Vercel AI Gateway"
+release_date = "undocumented"
+commercial_use = "Subject to the upstream provider and Vercel terms"
+
+[resolution]
+max = "upstream model dependent"
+min = "upstream model dependent"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "upstream model dependent"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "gateway forwards supported upstream image parameters"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "upstream provider price plus gateway terms"
+output = "upstream provider price plus gateway terms"
+
+[sources]
+urls = ["https://vercel.com/docs/ai-gateway/capabilities/image-generation", "https://vercel.com/docs/ai-gateway/models-and-providers"]

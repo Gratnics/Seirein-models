@@ -1,0 +1,24 @@
+[model]
+name = "gemini-2.5-flash-preview-tts"
+display_name = "Gemini 2.5 Flash Preview TTS"
+family = "Gemini TTS"
+provider = "Google Generative AI"
+release_date = "undocumented"
+commercial_use = "Subject to Google AI terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "audio"
+languages = "multilingual"
+streaming = false
+
+[limits]
+context = "Gemini model context limit"
+voice = "single- and multi-speaker voices"
+
+[pricing]
+input = "See Gemini API pricing"
+output = "audio tokens; see Gemini API pricing"
+
+[sources]
+urls = ["https://ai.google.dev/gemini-api/docs/speech-generation", "https://ai.google.dev/gemini-api/docs/models"]

@@ -1,0 +1,25 @@
+[model]
+name = "ink-whisper"
+display_name = "Ink Whisper"
+family = "Ink"
+provider = "Cartesia"
+release_date = "undocumented"
+commercial_use = "Subject to Cartesia terms"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text"
+languages = "provider/model dependent"
+streaming = true
+diarization = false
+
+[limits]
+context = "endpoint dependent"
+file_formats = "provider supported audio formats"
+
+[pricing]
+input = "See Cartesia pricing"
+output = "transcript"
+
+[sources]
+urls = ["https://docs.cartesia.ai/", "https://docs.cartesia.ai/build-with-cartesia/speech-to-text"]

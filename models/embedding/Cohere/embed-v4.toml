@@ -1,0 +1,23 @@
+[model]
+name = "embed-v4.0"
+display_name = "Embed v4"
+family = "Embed"
+provider = "Cohere"
+release_date = "2025-04-01"
+commercial_use = "Subject to Cohere API terms"
+
+[capabilities]
+input_modalities = ["text", "image"]
+output_modality = "embedding"
+dimensions = "256, 512, 1024, or 1536"
+
+[limits]
+context = "undocumented"
+batch = "multiple inputs"
+
+[pricing]
+input = "See Cohere Embed pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.cohere.com/docs/embed-v4", "https://docs.cohere.com/reference/embed"]

@@ -1,0 +1,25 @@
+[model]
+name = "grok-transcribe"
+display_name = "Grok Speech to Text"
+family = "Grok Audio"
+provider = "xAI"
+release_date = "undocumented"
+commercial_use = "Subject to xAI terms and availability"
+
+[capabilities]
+input_modalities = ["audio"]
+output_modality = "text and audio"
+languages = "provider dependent"
+streaming = true
+diarization = false
+
+[limits]
+context = "realtime session dependent"
+file_formats = "realtime audio formats"
+
+[pricing]
+input = "See xAI API pricing"
+output = "transcript/audio response"
+
+[sources]
+urls = ["https://docs.x.ai/developers/model-capabilities/audio/speech-to-text", "https://docs.x.ai/developers/models/speech-to-text"]

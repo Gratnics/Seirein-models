@@ -1,0 +1,24 @@
+[model]
+name = "voxtral-mini-tts-2603"
+display_name = "Voxtral TTS"
+family = "Voxtral"
+provider = "Mistral AI"
+release_date = "undocumented"
+commercial_use = "Subject to Mistral AI terms"
+
+[capabilities]
+input_modalities = ["text", "audio"]
+output_modality = "audio"
+languages = "English, French, Spanish, Portuguese, Italian, Dutch, German, Hindi, Arabic"
+streaming = true
+
+[limits]
+context = "endpoint dependent"
+voice = "reference audio or saved voice"
+
+[pricing]
+input = "See Mistral AI pricing"
+output = "audio bytes"
+
+[sources]
+urls = ["https://docs.mistral.ai/studio/audio/text_to_speech", "https://docs.mistral.ai/models"]

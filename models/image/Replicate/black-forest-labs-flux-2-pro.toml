@@ -1,0 +1,32 @@
+[model]
+name = "black-forest-labs/flux-2-pro"
+display_name = "FLUX.2 Pro"
+family = "FLUX.2"
+provider = "Replicate"
+release_date = "undocumented"
+commercial_use = "Subject to Replicate and model license terms"
+
+[resolution]
+max = "model endpoint dependent"
+min = "model endpoint dependent"
+arbitrary_resolution = true
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "up to 8 reference images"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "aspect_ratio; resolution; output_format; safety_tolerance; seed"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "Per image; see model page"
+
+[sources]
+urls = ["https://replicate.com/black-forest-labs/flux-2-pro", "https://replicate.com/docs/topics/models/official-models"]

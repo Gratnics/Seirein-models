@@ -1,0 +1,23 @@
+[model]
+name = "nomic-ai/nomic-embed-text-v1.5"
+display_name = "Nomic Embed Text v1.5"
+family = "Nomic Embed"
+provider = "Fireworks AI"
+release_date = "2024-02-01"
+commercial_use = "Subject to Fireworks AI and model license terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "768"
+
+[limits]
+context = "8192 tokens"
+batch = "multiple inputs"
+
+[pricing]
+input = "See Fireworks AI pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.fireworks.ai/models/embedding-models", "https://docs.fireworks.ai/api-reference/post-embeddings"]

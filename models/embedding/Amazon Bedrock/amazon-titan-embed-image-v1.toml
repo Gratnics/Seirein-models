@@ -1,0 +1,23 @@
+[model]
+name = "amazon.titan-embed-image-v1"
+display_name = "Titan Multimodal Embeddings G1"
+family = "Titan Multimodal Embeddings"
+provider = "Amazon Bedrock"
+release_date = "2023-11-29"
+commercial_use = "Available under Amazon Bedrock service terms"
+
+[capabilities]
+input_modalities = ["text", "image"]
+output_modality = "embedding"
+dimensions = "1024"
+
+[limits]
+context = "image and text request limits are endpoint dependent"
+batch = "endpoint dependent"
+
+[pricing]
+input = "See Amazon Bedrock pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-titan-embed-image.html", "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-amazon.html"]

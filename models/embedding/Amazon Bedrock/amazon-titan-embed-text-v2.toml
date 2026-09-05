@@ -1,0 +1,23 @@
+[model]
+name = "amazon.titan-embed-text-v2:0"
+display_name = "Titan Text Embeddings V2"
+family = "Titan Embeddings"
+provider = "Amazon Bedrock"
+release_date = "2024-09-30"
+commercial_use = "Available under Amazon Bedrock service terms"
+
+[capabilities]
+input_modalities = ["text"]
+output_modality = "embedding"
+dimensions = "256, 512, or 1024"
+
+[limits]
+context = "8192 tokens"
+batch = "multiple inputs"
+
+[pricing]
+input = "See Amazon Bedrock pricing"
+output = "embedding vector"
+
+[sources]
+urls = ["https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-titan-embed-text.html", "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-amazon.html"]

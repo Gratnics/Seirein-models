@@ -1,0 +1,32 @@
+[model]
+name = "amazon.titan-image-generator-v2:0"
+display_name = "Titan Image Generator G1 v2"
+family = "Titan Image Generator"
+provider = "Amazon Bedrock"
+release_date = "2024-05-22"
+commercial_use = "Available under Amazon Bedrock service terms"
+
+[resolution]
+max = "2048x2048"
+min = "不可記載"
+arbitrary_resolution = false
+aspect_ratio_control = true
+
+[input]
+file_upload = true
+max_input_context = "one source image for editing or conditioning"
+prompt_format = "natural_language"
+
+[settings]
+has_level_settings = true
+level_param_values = "taskType: TEXT_IMAGE|IMAGE_VARIATION; cfgScale; seed; quality; numberOfImages"
+
+[output]
+batch_supported = true
+
+[pricing]
+input = "undocumented"
+output = "See Amazon Bedrock pricing"
+
+[sources]
+urls = ["https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-image-generator.html", "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-amazon.html"]
